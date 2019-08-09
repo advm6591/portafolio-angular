@@ -11,7 +11,6 @@ export class InfoPaginaService {
   cargada = false;
   equipo: any[] = [];
   constructor( private http: HttpClient) {
-    // console.log('Info pagina de servicio');
 
     this.cargarInfo();
     this.cargarEquipo();

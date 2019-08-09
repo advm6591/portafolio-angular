@@ -49,3 +49,17 @@ svg path,
 svg rect{
   fill: black;
 }
+
+.text_title {
+    position: relative;
+    right: 0;
+    bottom: 5%;
+    left: 0;
+    z-index: 10;
+    padding-top: 20px;
+    // padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+}
